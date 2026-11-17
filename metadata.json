@@ -1,0 +1,6 @@
+{
+  "name": "¡Batalla de Español! — Razmik vs Gayane",
+  "description": "Juego educativo interactivo de español para Razmik y Gayane con 10 modos de competición, temporizadores independientes, reconocimiento de voz y traducción al armenio.",
+  "requestFramePermissions": ["microphone"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

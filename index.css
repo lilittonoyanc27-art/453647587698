@@ -1,0 +1,26 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    font-family: "Plus Jakarta Sans", system-ui, -apple-system, sans-serif;
+    background-color: #E5F4FF;
+    color: #0F172A;
+  }
+
+  h1, h2, h3, .font-display {
+    font-family: "Outfit", "Plus Jakarta Sans", system-ui, sans-serif;
+  }
+
+  .font-timer {
+    font-family: "JetBrains Mono", ui-monospace, SFMono-Regular, monospace;
+    font-variant-numeric: tabular-nums;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}
